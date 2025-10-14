@@ -9,3 +9,13 @@ e = set() # Dont use s = {} as it will create empty dictionary.
 s = {1, 5, 32, 54,4,6,6,7,8,8,8,8}
 
 print(s)
+
+
+"""
+sets are mutable => you can change its value.
+Sets are unordered => Elements order doesn't matter.
+Sets are unindexed => Cannot access elements by index
+There is no way to change items in sets.
+Sets cannot contain duplicate values.
+
+"""

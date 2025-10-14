@@ -2,6 +2,8 @@
 
 #syntax
 
+# d = {} --> To create empty dictionary.
+
 marks = {
     "Suraj" : 100,
     "Roshni" : 200,
@@ -26,3 +28,4 @@ print(marks["list"])
 # String is immutable.
 # Tuple is immutable.
 # dict is mutable.
+# set

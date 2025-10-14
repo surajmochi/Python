@@ -20,6 +20,13 @@ print(marks.values())
 
 marks.update({"Suraj" : 200, "Roshni" : 300})
 print(marks)
+# print updated given values.
+
+"marks.pop method can also be used."
+
+#Return the value of specified keys(and value is returned eg. "harry is returned here").
+print(marks.get("Harry2")) # Prints None
+print(marks["Harry2"]) # Returns an error.
 
 
 
