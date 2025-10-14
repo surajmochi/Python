@@ -12,3 +12,17 @@ marks = {
 # print(marks, type(marks))
 
 print(marks["list"])
+
+
+"""
+-> Properties of python dictionaries
+    1. it is unordered.
+    2. it is mutable(You can change its value).
+    3. it is indexed.
+    4. Cannot contain duplicate keys.
+"""
+
+# list is mutable
+# String is immutable.
+# Tuple is immutable.
+# dict is mutable.
