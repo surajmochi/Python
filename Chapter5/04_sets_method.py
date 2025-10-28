@@ -17,7 +17,7 @@ print(s,type(s))
 
 lens(s): Return 4, the lenght of the set.
 
-s.remove(8): Updates the set s and removes 8 from us.
+s.remove(8): Updates the set s and removes 8 from s.
 
 s.pop(): Removes an arbirary element from the set and return the element removed.
 
