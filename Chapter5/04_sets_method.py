@@ -11,6 +11,14 @@ print(s,type(s))
 s.remove(5)
 print(s,type(s))
 
+#emties the set
+s.clear()
+print(s,type(s))
+
+#remove random value
+s.pop()
+print(s,type(s))
+
 
 
 """"

@@ -7,9 +7,9 @@ in while loops, the condition is checked first, if it evaluate to true, the body
 """
 
 i = 1
-while(i<51):
+while(i<=5):
     print(i)
-    i +=1
+    i +=1 # i = i+1
 
 """
 Output
@@ -19,3 +19,9 @@ Output
 4
 5
 """
+
+i = 1
+while i <= 10000:
+    print("Surucollege", i)
+    i+=1
+    
