@@ -16,7 +16,7 @@ with open("practice.txt", "r") as f:
 # Pass / typcasting to integer value
 
 
-# Another method
+# To count the number of even in the string.
 
 count = 0
 with open("practice.txt", "r") as f:
