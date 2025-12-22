@@ -34,10 +34,19 @@ print(s1.name)
 s2 = student("Roshni")
 print(s2.name)
 
+
+
 # attributes are values associated with an object that define its characteristics or properties.
 
 
+
 class student:
+
+    #default constructor
+    def __init__(self):
+        print("adding new student in database..") # if we do not create this python will automatically will create.
+
+    # Parameterized constructor
     def __init__(self, name, marks): # we anyhow need to define the self argument.
         self.name = name
         self.marks = marks
