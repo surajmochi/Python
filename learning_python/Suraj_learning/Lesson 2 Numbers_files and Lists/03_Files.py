@@ -1,15 +1,18 @@
+#What is file
+
+
 # Reading from a file
-# f = open("show_version.txt") #open file for reading
-# data = f.read() #Use the .read() method to read in the entire file as a string
-# f.close() # Close the file
-# f = open("show version.txt", mode = "r") # you can explicitly declare the mode.
+f = open("show_version.txt") #open file for reading
+data = f.read() #Use the .read() method to read in the entire file as a string
+f.close() # Close the file
+f = open("show version.txt", mode = "r") # you can explicitly declare the mode.
 
 
 # different ways of reading in the files contents.
-# f = open("show_version.txt")
-# f.readline() # read a line at a time.
-# f.readlines() # read all of the lines of the file into a list.
-# f.seek(0) # go to the begining of the file
+f = open("show_version.txt")
+f.readline() # read a line at a time.
+f.readlines() # read all of the lines of the file into a list.
+f.seek(0) # go to the begining of the file
 
 # for line in f: #loop over the linex in a file.
 #     print(line)
